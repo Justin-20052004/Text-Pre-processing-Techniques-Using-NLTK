@@ -57,7 +57,7 @@ Output
 
 Tokenized words from the input text
 
-Clean tokens after punctuation removal
+Clean tokens after punctuation removal (isalnum() for remove all type of punctuations)
 
 Words after stopword filtering
 
@@ -84,7 +84,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
-Open the Jupyter Notebook
+Open the Jupyter Notebook/colab Notebook
 
 Run all cells
 
